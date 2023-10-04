@@ -24,7 +24,6 @@ const IMG = styled("img")(({ theme }) => ({
 }));
 
 const PhoneDiv = styled("div")(({ theme }) => ({
-  
   padding : "20px" , 
 }));
 const Title = styled("p")(({ theme }) => ({
