@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider, createTheme } from '@mui/material';
+import 'bootstrap/dist/css/bootstrap.min.css' ; 
+import 'bootstrap/dist/js/bootstrap.min.js' ; 
 
 const theme = createTheme({
   breakpoints: {
@@ -22,24 +24,7 @@ const theme = createTheme({
     },
     mode: "light",
   },
-  typography: {
-    fontFamily: [
-      "cairo",
-      "-apple-system",
-      "BlinkMacSystemFont",
-      "Segoe UI",
-      "Roboto",
-      "Helvetica Neue",
-      "Arial",
-      "sans-serif",
-      '"Apple Color Emoji"',
-      '"Segoe UI Emoji"',
-      '"Segoe UI Symbol"',
-    ].join(","),
-  },
-  // typography: {
-  //   fontSize: 16,
-  // },
+  
 });
 
 
@@ -47,7 +32,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <App />
+      <App/>
     </ThemeProvider>
   </React.StrictMode>
 );

@@ -1,10 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css' ; 
-import 'bootstrap/dist/js/bootstrap.min.js' ; 
+import Login from "./Auth/Login/Login";
+
 function App() {
   return (
-    <div>
-    hello here we go agin 
-    </div>
+    <>
+      <Login/>
+    </>
   )
 }
 
