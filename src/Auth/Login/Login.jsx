@@ -55,7 +55,6 @@ const H1 = styled("h1")(({ theme }) => ({
     textAlign: "left",
     color: Colors.second,
     marginBottom : "40px" ,
-
 }));
 const Div = styled("div")(({ theme }) => ({
     width: '100%', 
@@ -103,7 +102,7 @@ const LINK = styled(Link)(({ theme }) => ({
         flexDirection : "row" ,
     },
 }));
-const LoginButton = styled("div")(({ theme }) => ({
+const SubmitButton = styled("div")(({ theme }) => ({
     width: '100%',
     height: '60px',
     padding: '2px 0px 1px 0px',
@@ -114,7 +113,7 @@ const LoginButton = styled("div")(({ theme }) => ({
     display : "flex" ,
     justifyContent : "center" ,
     alignItems : "center" ,
-    fontSize: '20px', // Font size
+    fontSize: '20px', 
     marginTop : "30px" ,
     transition : "all 0.5s ease" ,
     "&:hover" : {
@@ -146,7 +145,7 @@ const Login = () => {
             <LINK>
                 Forget Password?
             </LINK>
-            <LoginButton>Login</LoginButton>
+            <SubmitButton >Login</SubmitButton>
             <LINK className = "register" > Didn't have an account,  
                 <span style = {{color : "#030087" , marginLeft : "10px" }}> Register! </span>
             </LINK>

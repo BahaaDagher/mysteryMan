@@ -3,5 +3,6 @@ export const Colors = {
     lightMain : "#3734cade" , 
     second :"#455A64" , 
     input : "#C8C8C8" , 
-    gray_l : "#A5A5A5" , 
+    gray_l : "#A5A5A5" ,
+    body2 :"#F3F5F8" ,  
 }
